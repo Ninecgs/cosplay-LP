@@ -1,7 +1,6 @@
-// Espera o DOM ser totalmente carregado para executar os scripts
+
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Lógica para o Menu Mobile
     const menuButton = document.getElementById('menu-button');
     const closeMenuButton = document.getElementById('close-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', closeMenu);
     });
 
-    // Lógica para o Carrossel de Categorias
+
     const scrollContainer = document.getElementById('categories-container');
     const scrollLeftButton = document.getElementById('scroll-left-button');
     const scrollRightButton = document.getElementById('scroll-right-button');
